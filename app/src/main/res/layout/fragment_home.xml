@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".HomeFragment">
+    tools:context=".ui.HomeFragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -28,30 +28,17 @@
 
     <Button
         android:id="@+id/btCreateQuiz"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:backgroundTint="@color/purple_700"
+        style="@style/Theme.MadLevel7Example.Button"
         android:text="@string/bt_create_quiz"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btStartQuiz"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:alpha="@dimen/material_emphasis_disabled"
-        android:backgroundTint="@color/purple_700"
-        android:clickable="false"
+        style="@style/Theme.MadLevel7Example.Button.Disabled"
         android:text="@string/bt_start_quiz"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btCreateQuiz" />
 

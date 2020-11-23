@@ -1,10 +1,11 @@
-package nl.svdoetelaar.madlevel7example
+package nl.svdoetelaar.madlevel7example.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import nl.svdoetelaar.madlevel7example.R
 
 class HomeFragment : Fragment() {
 

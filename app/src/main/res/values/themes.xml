@@ -19,6 +19,20 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.MadLevel7Example.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="backgroundTint">@color/purple_500</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MadLevel7Example.Button.Disabled" parent="Theme.MadLevel7Example.Button">
+        <item name="android:clickable">false</item>
+        <item name="android:alpha">@dimen/material_emphasis_disabled</item>
+    </style>
+
     <style name="Theme.MadLevel7Example.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MadLevel7Example.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
