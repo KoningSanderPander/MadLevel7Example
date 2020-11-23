@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/quizFragment"
-        android:name="nl.svdoetelaar.madlevel7example.QuizFragment"
+        android:name="nl.svdoetelaar.madlevel7example.ui.QuizFragment"
         android:label="fragment_quiz"
         tools:layout="@layout/fragment_quiz" />
 </navigation>
