@@ -15,5 +15,6 @@
     <string name="bt_confirm_answer">Confirm answer</string>
 
     <string name="successfully_created_quiz">Quiz was successfully created!</string>
+    <string name="get_quiz_exception_message">Retrieval-firebase-task was unsuccessful</string>
 
 </resources>
