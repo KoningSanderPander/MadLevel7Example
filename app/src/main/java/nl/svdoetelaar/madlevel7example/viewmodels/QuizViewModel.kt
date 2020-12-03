@@ -24,7 +24,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
     fun getQuiz(){
         viewModelScope.launch {
             try {
-                quizRepository.quiz
+                quizRepository.getQuiz()
             } catch (e: QuizRepository.QuizRetrievalError) {
                 val errorMsg = "Something went wrong while retrieving quiz"
                 Log.e(TAG, e.message ?: errorMsg)
